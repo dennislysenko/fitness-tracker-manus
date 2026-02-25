@@ -28,11 +28,11 @@ const schemeFromBundleId = `manus${timestamp}`;
 
 const env = {
   // App branding - update these values directly (do not use env vars)
-  appName: "FitTrack - Fitness Tracking App",
+  appName: "FitTrack",
   appSlug: "fitness-tracker",
   // S3 URL of the app logo - set this to the URL returned by generate_image when creating custom logo
   // Leave empty to use the default icon from assets/images/icon.png
-  logoUrl: "",
+  logoUrl: "https://private-us-east-1.manuscdn.com/sessionFile/q04aN7M0OJzD32nMnJB2vj/sandbox/0JKajnFxKWI6LQReeOVxVh-img-1_1772061951000_na1fn_Zml0dHJhY2staWNvbg.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvcTA0YU43TTBPSnpEMzJuTW5KQjJ2ai9zYW5kYm94LzBKS2FqbkZ4S1dJNkxRUmVlT1Z4VmgtaW1nLTFfMTc3MjA2MTk1MTAwMF9uYTFmbl9abWwwZEhKaFkyc3RhV052YmcucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=QWLteh2V3ogKRNkKFRmmnWuLKFtG7kJQjW~ZLkABUyw6aZO53yz-vojmuFkffYZxfnUTpKKc-TTQXeEyTylAUC-XAxy12IycfL3K7~6SSqjPsKgUnKJVaxBhoFC0jJVFd6gKf1JqHrBs4hhWvpjnk14C7LQJCU9w-Qy8cYgLwg4ZePDVLUAtUKAdSngeMPSVW-94I70T8r8rQYLrcAp-z3W44Aq-PhxK3~xkoLWZxjDrfG2EYv1zFxOPY2MjIKcJ6tZAd3FlLeCzLo~~Jfx35EloM8CZOWJ4MiMoMDlw5ZXhhQnyIto1~Wm0sZ8-dbRDQzNpXDcpsap-rHocK4gzgQ__",
   scheme: schemeFromBundleId,
   iosBundleId: bundleId,
   androidPackage: bundleId,
